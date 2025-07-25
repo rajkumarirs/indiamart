@@ -30,6 +30,29 @@ const paymentSchema = new mongoose.Schema({
     txnAmount: {
         type: String,
         required: true
+
+
+txnId: {
+        type: String,
+        required: true
+    },
+    bankTxnId: {
+        type: String,
+        required: true
+    },
+    orderId: {
+        type: String,
+        required: true
+    },
+    txnAmount: {
+        type: String,
+        required: true
+
+
+
+
+
+
     },
     txnType: {
         type: String,
